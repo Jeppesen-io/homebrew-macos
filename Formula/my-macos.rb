@@ -2,17 +2,15 @@ class MyMacos < Formula
   desc 'System-wide macOS UI tweak'
   url 'https://github.com/Jeppesen-io/homebrew-macos/archive/master.zip'
   homepage 'https://github.com/Jeppesen-io/homebrew-macos'
-  version '0.9'
+  version '1.0'
 
   bottle :unneeded
 
-  # Deploy settings
   def install
+    # Deploy
     bin.install 'bin/my-macos'
-  end
 
-  # Run settings
-  test do
+    # Run
     system 'my-macos'
   end
 
