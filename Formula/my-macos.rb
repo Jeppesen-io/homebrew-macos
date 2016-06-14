@@ -1,8 +1,10 @@
 class MyMacOsDefaults < Formula
   desc 'Various macOS UI tweaks'
 
+  bottle :unneeded
+
   stable do
-    version '0.9'
+    version '0.91'
   end
 
   def install
