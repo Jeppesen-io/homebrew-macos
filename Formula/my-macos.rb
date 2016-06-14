@@ -108,4 +108,8 @@ class MyMacOS < Formula
 
   end
 
+ test do
+    system bin/"ansiweather", "-h"
+  end
+
 end
