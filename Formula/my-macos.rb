@@ -7,7 +7,7 @@ class MyMacos < Formula
   bottle :unneeded
 
   def install
-    bin.install 'my-macos'
+    bin.install 'bin/my-macos'
   end
 
 end
