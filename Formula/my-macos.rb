@@ -1,4 +1,4 @@
-class MyMacoo < Formula
+class MyMacos < Formula
   desc 'System-wide macOS UI tweak'
   version '0.1'
 
