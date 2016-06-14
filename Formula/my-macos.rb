@@ -8,6 +8,7 @@ class MyMacOS < Formula
   bottle :unneeded
 
   def install
+    bin.install "ansiweather"
 
     # Set all finder windows to list by default
     `defaults write com.apple.finder FXPreferredViewStyle -string "clmv"`
