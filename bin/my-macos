@@ -8,7 +8,7 @@ function set-def {
 }
 
 echo -e "\n--- Settings defaults"
-set-def 'com.apple.finder FXPreferredViewStyle -string "clmv"'
+set-def 'com.apple.finder FXPreferredViewStyle -string clmv'
 
 # Never show the dock!
 set-def 'com.apple.dock autohide-delay -float 0'
@@ -20,7 +20,7 @@ set-def 'com.apple.universalaccess reduceTransparency -bool true'
 set-def 'NSGlobalDomain NSTableViewDefaultSizeMode -int 2'
 
 # Always show scrollbars
-set-def 'NSGlobalDomain AppleShowScrollBars -string "Always"'
+set-def 'NSGlobalDomain AppleShowScrollBars -string Always'
 
 # Increase window resize speed for Cocoa applications
 set-def 'NSGlobalDomain NSWindowResizeTime -float 0.001'
@@ -92,7 +92,7 @@ set-def 'com.apple.dock wvous-bl-corner     -int 0'
 set-def 'com.apple.dock wvous-bl-modifier   -int 0'
 
 # Send the dock to the left of the screen
-set-def 'com.apple.dock  orientation -string "right"'
+set-def 'com.apple.dock  orientation -string right'
 
 # Set the size of icons in the dock
 set-def 'com.apple.dock tilesize -int 50'
