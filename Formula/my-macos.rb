@@ -2,7 +2,7 @@ class MyMacos < Formula
   desc 'System-wide macOS UI tweak'
   url 'https://github.com/Jeppesen-io/homebrew-macos/archive/master.zip'
   homepage 'https://github.com/Jeppesen-io/homebrew-macos'
-  version '1.3'
+  version '1.4'
 
   bottle :unneeded
 
@@ -13,7 +13,7 @@ class MyMacos < Formula
 
   def post_install
     # Run
-    `/usr/local/bin/my-macos`
+    system '/usr/local/bin/my-macos'
   end
 
 end
