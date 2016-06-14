@@ -1,4 +1,4 @@
-class MyMacOsDefaults < Formula
+class Mymacos < Formula
   desc 'Various macOS UI tweaks'
   homepage "https://github.com/fcambus/ansiweather"
   url "https://github.com/fcambus/ansiweather/archive/1.07.tar.gz"
