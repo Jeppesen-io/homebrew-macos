@@ -1,6 +1,7 @@
 class MyMacos < Formula
   desc 'System-wide macOS UI tweak'
   url 'https://github.com/Jeppesen-io/homebrew-macos'
+  homepage 'https://github.com/Jeppesen-io/homebrew-macos'
   version '0.1'
 
   bottle :unneeded
