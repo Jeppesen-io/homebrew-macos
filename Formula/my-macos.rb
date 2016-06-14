@@ -1,14 +1,10 @@
-class MyMacOS < Formula
-  desc "Weather in your terminal, with ANSI colors and Unicode symbols"
-  homepage "https://github.com/fcambus/ansiweather"
-  url "https://github.com/fcambus/ansiweather/archive/1.07.tar.gz"
-  sha256 "f9b377b23ecc9c2d3567424b300b8e370eb0959c9b1cd0828ba07ce38f2ef0a0"
-  head "https://github.com/fcambus/ansiweather.git"
+class MyMacoo < Formula
+  desc 'System-wide macOS UI tweak'
+  version '0.1'
 
   bottle :unneeded
 
   def install
-    bin.install 'my-macos'
 
     # Set all finder windows to list by default
     `defaults write com.apple.finder FXPreferredViewStyle -string "clmv"`
@@ -107,10 +103,6 @@ class MyMacOS < Formula
     # Restart finder
     `killall Finder`
 
-  end
-
- test do
-    system bin/"ansiweather", "-h"
   end
 
 end
