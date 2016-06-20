@@ -2,7 +2,7 @@ class MyMacos < Formula
   desc 'System-wide macOS UI tweak'
   url 'https://github.com/Jeppesen-io/homebrew-macos/archive/master.zip'
   homepage 'https://github.com/Jeppesen-io/homebrew-macos'
-  version '1.5'
+  version '1.6'
 
   bottle :unneeded
 
@@ -14,6 +14,7 @@ class MyMacos < Formula
   def post_install
     # Run
     system '/usr/local/bin/my-macos'
+    system 'sudo nvram SystemAudioVolume="%00"'
   end
 
 end
