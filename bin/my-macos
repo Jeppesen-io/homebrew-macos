@@ -9,7 +9,8 @@ function set-def {
 
 echo -e "\n--- Settings defaults"
 
-############################## Dock (make it faster!)
+############################## Dock, all the rigth settings baby!
+set-def 'com.apple.dock mineffect                 -string scale'    # Genie is soo tacky!
 set-def 'com.apple.dock autohide                  -bool true'       # Autohide Dock
 set-def 'com.apple.dock orientation               -string right'    # Dock on the right
 set-def 'com.apple.dock tilesize                  -int 50'          # Dock icon sizes
