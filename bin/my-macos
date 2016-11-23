@@ -9,6 +9,8 @@ function set-def {
 
 echo -e "\n--- Settings defaults"
 
+
+
 ############################## Dock, all the rigth settings baby!
 set-def 'com.apple.dock mineffect                 -string scale'    # Genie is soo tacky!
 set-def 'com.apple.dock autohide                  -bool true'       # Autohide Dock
@@ -31,6 +33,7 @@ set-def 'com.apple.dock wvous-bl-modifier         -int 0'           # Disable ho
 
 
 ############################## Finder
+set-def 'com.apple.finder AppleShowAllFiles       -bool true'       # Show hidden files!
 set-def 'com.apple.finder FXPreferredViewStyle    -string clmv'     # Default to Column View
 set-def 'com.apple.finder ShowStatusBar           -bool true'       # Show status bar
 set-def 'com.apple.finder ShowPathbar             -bool true'       # Show path bar
