@@ -9,6 +9,9 @@ function set-def {
 
 echo -e "\n--- Settings defaults"
 
+echo 'Disabling the OSX dictionary (ctrl + cmd + d)'
+defaults write com.apple.symbolichotkeys AppleSymbolicHotKeys -dict-add 70 '<dict><key>enabled</key><false/></dict>'
+
 ############################## Dock, all the rigth settings baby!
 set-def 'com.apple.dock mineffect                 -string scale'    # Genie is soo tacky!
 set-def 'com.apple.dock autohide                  -bool true'       # Autohide Dock
@@ -47,7 +50,6 @@ set-def 'NSGlobalDomain NSNavPanelExpandedStateForSaveMode2 -bool true'  # Expan
 set-def 'NSGlobalDomain com.apple.swipescrolldirection      -bool false' # Disable natural/dumb scrolling
 
 ############################## Other
-set-def 'com.apple.SoftwareUpdate ScheduleFrequency   -int 1'       # Check for updates daily
 set-def 'com.apple.universalaccess reduceTransparency -bool true'   # Disable menubar transparency
 
 echo -e "\n--- Cleanup"
@@ -59,3 +61,6 @@ killall Dock
 
 echo 'Restarting Finder'
 killall Finder
+
+echo
+echo 'Reboot recomeneded'
