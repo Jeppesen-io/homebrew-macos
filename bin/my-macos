@@ -19,7 +19,7 @@ set-def 'com.apple.dock orientation               -string right'    # Dock on th
 set-def 'com.apple.dock tilesize                  -int 50'          # Dock icon sizes
 set-def 'com.apple.dock autohide-delay            -float 0.0'       # Speed up animations
 set-def 'com.apple.dock expose-animation-duration -float 0.0'       # Speed up animations
-set-def 'com.apple.dock autohide-delay            -float 0.0'       # Speed up animations
+set-def 'com.apple.dock autohide-delay            -float 1000'      # Effectivly disable the dock
 set-def 'com.apple.dock autohide-time-modifier    -float 0.0'       # Speed up animations
 set-def 'com.apple.dock expose-group-by-app       -bool false'      # Speed up animations
 set-def 'com.apple.dock launchanim                -bool false'      # Speed up animations

@@ -1,6 +1,6 @@
 cask 'my-macos' do
 
-  version '1.4'
+  version '1.5'
   url 'https://github.com/Jeppesen-io/homebrew-macos/archive/master.zip'
   homepage 'https://macoshub.com/Jeppesen-io/homebrew-macos'
   sha256 :no_check
